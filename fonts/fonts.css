@@ -1,4 +1,49 @@
 @font-face {
-    font-family: 'EB Garamond';
-    src: url();
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 500;
+  src:
+    local("EB Garamond"),
+    local("eb garamond"),
+    local("ebgaramondmedium"),
+    url(/fonts/fonts/ebgaramondmedium.woff2) format("woff2"),
+    url(/fonts/fonts/ebgaramondmedium.woff) format("woff"),
+    url(/fonts/fonts/ebgaramondmedium.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local("EB Garamond"),
+    local("eb garamond"),
+    local("ebgaramondregular"),
+    url(/fonts/fonts/ebgaramondregular.woff2) format("woff2"),
+    url(/fonts/fonts/ebgaramondregular.woff) format("woff"),
+    url(/fonts/fonts/ebgaramondregular.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 400;
+  font-style: normal;
+  src:
+    local("Inter"),
+    local("inter"),
+    local("interregular"),
+    url(/fonts/fonts/interregular.woff2) format("woff2"),
+    url(/fonts/fonts/interregular.woff) format("woff"),
+    url(/fonts/fonts/interregular.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  src:
+    local("Inter"),
+    local("inter"),
+    local("interregular"),
+    url(/fonts/fonts/interregular.woff2) format("woff2"),
+    url(/fonts/fonts/interregular.woff) format("woff"),
+    url(/fonts/fonts/interregular.ttf) format("ttf");
 }
