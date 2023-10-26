@@ -39,11 +39,13 @@
 
 @font-face {
   font-family: "Inter";
+  font-weight: 700;
+  font-style: normal;
   src:
     local("Inter"),
     local("inter"),
     local("interregular"),
-    url(/fonts/fonts/interregular.woff2) format("woff2"),
-    url(/fonts/fonts/interregular.woff) format("woff"),
-    url(/fonts/fonts/interregular.ttf) format("ttf");
+    url(/fonts/fonts/interbold.woff2) format("woff2"),
+    url(/fonts/fonts/interbold.woff) format("woff"),
+    url(/fonts/fonts/interbold.ttf) format("ttf");
 }
