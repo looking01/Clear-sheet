@@ -137,7 +137,36 @@ blockquote {
 }
 
 .reasons {
+  color: #131313;
   padding: 40px 20px;
+}
+
+.content-section__subtitle {
+  font-family: "EB Garamond", serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.15;
+  color: #131313;
+  margin-bottom: 32px;
+}
+
+.content-section__introduction {
+  font-size: 20px;
+  line-height: 1.35;
+  margin-bottom: 32px;
+}
+
+.content-section__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0 0 0 16px;
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+.content-section__list-accent {
+  font-weight: 700;
 }
 
 .how-to {
