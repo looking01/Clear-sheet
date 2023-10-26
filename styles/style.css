@@ -10,3 +10,45 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
   padding: 0;
 }
 
+.content-section {
+  box-sizing: border-box;
+  align-items: center;
+  width: 360px;
+
+
+
+}
+
+.content-section_theme_dark {
+  background-color: #131313;
+  color: #F5F5F5;
+}
+
+.content-section_theme_bright {
+  background-color: #FEE42A;
+  color: #131313;
+}
+
+.header {
+  padding: 24px 20px;
+}
+
+.cover {
+  padding: 0 0 30px 21px ;
+}
+
+.intro {
+  padding: 0 20px 37px;
+}
+
+.reasons {
+  padding: 40px 20px;
+}
+
+.how-to {
+  padding: 40px 20px 60px;
+}
+
+.footer {
+  padding: 20px 20px;
+}
