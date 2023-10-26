@@ -2,6 +2,7 @@
   font-family: "EB Garamond";
   font-style: normal;
   font-weight: 500;
+  font-display: swap;
   src:
     local("EB Garamond"),
     local("eb garamond"),
@@ -15,6 +16,7 @@
   font-family: "EB Garamond";
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src:
     local("EB Garamond"),
     local("eb garamond"),
@@ -28,6 +30,7 @@
   font-family: "Inter";
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
   src:
     local("Inter"),
     local("inter"),
@@ -41,6 +44,7 @@
   font-family: "Inter";
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
   src:
     local("Inter"),
     local("inter"),
