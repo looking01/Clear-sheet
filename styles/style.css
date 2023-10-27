@@ -178,8 +178,8 @@ blockquote {
 }
 
 .card {
-  padding: 20px;
   border-radius: 30px;
+  padding: 20px;
 }
 
 .card-list {
@@ -227,5 +227,22 @@ blockquote {
 }
 
 .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 20px;
+  border-top: 1px solid #FEE42A;
+}
+
+.footer__links {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+}
+
+.footer__links a {
+  color: #F5F5F5;
+  font-size: 14px;
+  line-height: 1.25;
+  text-decoration: none;
 }
